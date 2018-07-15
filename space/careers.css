@@ -1,0 +1,146 @@
+
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+    height: 100%;
+  }
+  body {
+     width: 100vw;
+     height: 100%;
+  }
+h1 {
+        padding-bottom: 40px;
+    }
+h2 {
+        color: #000000;
+        font-family: georgia, serif;
+        padding-top: 50px;
+        width: 50%;
+        text-align: center;
+    }
+
+
+div img {
+    width: 200px;
+}
+.title {
+    width: 50%;
+    text-align: center;
+}
+p {
+    padding: 20px;
+    float: left;
+    width: 60%;
+    text-align: justify;
+}
+
+img {
+    border: 10px solid #000000;
+    margin: 20px;
+}
+
+  h4 {
+      font-family:Arial, Helvetica, sans-serif;
+  }
+.header {
+        overflow: hidden;
+        background-image: url("img/sky.jpg");
+        background-color: #f1f1f1;
+        padding: 20px 10px;
+        color: #ffffff;
+        text-align: center;
+        font-display: Georgia, serif;
+}
+   
+.box {
+background-color: #f1f1f1;
+margin: 100px;
+width: 80%;
+}
+nav {
+    float: left;
+    width: 100%;
+    background-color: transparent;
+    margin-top: -50px;
+}
+
+ul.nav {
+    text-align:center;
+}
+
+ul.nav li {
+    display: inline-block;
+}
+nav ul {
+    float: left;
+    list-style-type: none;
+    width: 100%;
+}
+nav li {
+    float: left;
+    font-size: 15px;
+    width: 25%;
+}
+
+nav li a {
+    display: inline;
+    height: 15px;
+    padding: 10px 80px 8px 10px;
+    vertical-align: middle;
+}
+  a {
+      color:#ffffff;
+      text-decoration: none;
+  }
+
+  a:hover {
+    color: #e2caf9;
+}
+  section {
+      width: 100%;
+      background-image: URL("img/stars.jpg");
+      background-repeat: repeat-y;
+      background-repeat: repeat-x;
+      display: inline-block;
+      float: left;
+  }
+
+  aside {
+      width: 17%;
+      display: inline-block;
+      background-color:;
+      padding:;
+      min-height: 100%;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 100%;
+      clear: both;
+      display: block;
+  }
+
+ul.footer li {
+    display: inline-block;
+}
+footer ul {
+    float: left;
+    list-style-type: none;
+    width: 100%;
+    margin-top: -50px;
+}
+footer li {
+    float: left;
+    font-size: 15px;
+    width: 33%;
+}
+
+footer li a {
+    display: inline;
+    height: 15px;
+    padding: 10px 80px 8px 10px;
+    vertical-align: middle;
+}
